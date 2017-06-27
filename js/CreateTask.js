@@ -114,20 +114,10 @@ else if (num == 49) x.innerHTML = 'I dare you to masturbate at the same time as 
 else if (num == 50) x.innerHTML = 'I dare you to undress me with your eyes closed';
 };
 
-function getProjectNames()
-{ var comp =  "test";
-  var dataString = 'company=' + comp; 
-$.ajax({
-url: "getProjectName.php", // Url to which the request is send
-type: "POST",            // Type of request to be send, called as method
-data: dataString, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
-contentType: false,       // The content type used when sending data to the server.
-cache: false,             // To unable request pages to be cached
-processData:false,        // To send DOMDocument or non processed data file it is set to false
-success: function(data)   // A function to be called if request succeeds
-{
-$("#ProjectName").html(data);
-}
-});
+function callAboutPage()
+{ 
+  window.location = "about.html";
 };
+
+
 
