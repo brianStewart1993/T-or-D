@@ -121,12 +121,12 @@ function callAboutPage()
 
 function callCalculatorPage()
 { 
-  window.location = "calculator.html";
+  window.location = "Calculator.html";
 };
 
 function callGamePage()
 { 
-  window.location = "game.html";
+  window.location = "Game.html";
 };
 
 
