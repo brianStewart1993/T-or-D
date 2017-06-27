@@ -119,5 +119,16 @@ function callAboutPage()
   window.location = "about.html";
 };
 
+function callCalculatorPage()
+{ 
+  window.location = "calculator.html";
+};
+
+function callGamePage()
+{ 
+  window.location = "game.html";
+};
+
+
 
 
